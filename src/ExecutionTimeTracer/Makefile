@@ -1,3 +1,5 @@
+INSTALL_PREFIX ?= /usr/local
+
 .PHONY: install
 install:
 	mkdir -p $(INSTALL_PREFIX)/share/vprofiler/ExecutionTimeTracer

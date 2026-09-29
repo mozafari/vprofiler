@@ -1,4 +1,4 @@
-INSTALL_PREFIX = /usr/local
+INSTALL_PREFIX ?= /usr/local
 
 .PHONY: all
 all: Main SynchronizationInstrumentor TracerInstrumentor

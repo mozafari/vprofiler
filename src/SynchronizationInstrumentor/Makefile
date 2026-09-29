@@ -1,4 +1,4 @@
-INSTALL_PREFIX := /usr/local
+INSTALL_PREFIX ?= /usr/local
 
 CXX := $(shell which g++)
 CXXFLAGS := -fno-rtti -O0 -g -std=c++1y
